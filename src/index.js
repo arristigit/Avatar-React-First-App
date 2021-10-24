@@ -2,10 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Demo from './Demo';
+import Avatar from './Avatar';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
+ReactDOM.render( 
+//<h1>hello React</h1>,
   <React.StrictMode>
+    <Avatar id="1" name="Vinod" work="Web Developer" />,
+    <Avatar id="1" name="Gaura" work="Web Developer" />,
+    
+    <Demo name="vinod thakur thapa" />,
+    <Demo name="Krishna Balram" />,
     <App />
   </React.StrictMode>,
   document.getElementById('root')
